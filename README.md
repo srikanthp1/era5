@@ -1,15 +1,15 @@
 # Image classification
 
- * we are training our model on MNIST dataset. 
- * we are using a custom convolutional neural network (CNN) architectures. 
- * Implemented in pytorch 
-
-## Info
-
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/release/python-370/), 
 [PyTorch](https://pytorch.org/), 
 [torchvision](https://github.com/pytorch/vision) 0.8, 
 Uses [matplotlib](https://matplotlib.org/)  for ploting accuracy and losses.
+
+## Info
+
+ * we are training our model on MNIST dataset. 
+ * we are using a custom convolutional neural network (CNN) architectures. 
+ * Implemented in pytorch 
 
 ## Getting Started
 
