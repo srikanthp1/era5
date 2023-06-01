@@ -27,7 +27,9 @@ pip install torchvision
 ```bash
 git clone https://github.com/srikanthp1/era5.git
 ```
-
+* utils.py has util functions
+* model.py has models 
+* run cell by cell to download, visualize data and train model
 
 ## Demo 
 
