@@ -6,9 +6,9 @@
 
 ## Info
 
-[![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/release/python-370/)
-[PyTorch](https://pytorch.org/)
-[torchvision](https://github.com/pytorch/vision) 0.8
+[![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/release/python-370/), 
+[PyTorch](https://pytorch.org/), 
+[torchvision](https://github.com/pytorch/vision) 0.8, 
 Uses [matplotlib](https://matplotlib.org/)  for ploting accuracy and losses.
 
 ## Getting Started
@@ -28,27 +28,28 @@ pip install torchvision
 git clone https://github.com/srikanthp1/era5.git
 ```
 
+
 ## Demo 
 
 [**CustomNetwork**](https://github.com/srikanthp1/era5/blob/main/S5.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/srikanthp1/era5/blob/main/S5.ipynb)
 
 * we have the following:
- ⋅⋅1. load datasets 
- ⋅⋅2. augment data
- ⋅⋅3. define a custom CNN
- ⋅⋅4. train a model
- ⋅⋅5. view the outputs of our model
- ⋅⋅6. visualize the model's representations
- ⋅⋅7. view the loss and accuracy of the model. 
+    * load datasets 
+    * augment data
+    * define a custom CNN
+    * train a model
+    * view the outputs of our model
+    * visualize the model's representations
+    * view the loss and accuracy of the model. 
 
 * **transforms** for trainset and testset are in utils.py. 
-* you will also find **dataloaders** in __utils.py__. 
-* **train** and **test** functions are written in __utils.py__.
-* model is written in __model.py__.
+* you will also find **dataloaders** in __utils.py__**. 
+* **train** and **test** functions are written in __utils.py__**.
+* model is written in __model.py__**.
 * dataset is downloaded in __S5.ipynb__ file as we may want to try new datasets. 
-* transforms if needed to be added or modified refer __utils.py__.
-* visualization of dataset is in __S5.ipynb__  
-* __graphs__ for loss and accuracy is added after training and testing is done
+* transforms if needed to be added or modified refer __utils.py__**.
+* visualization of dataset is in __S5.ipynb__**  
+* __graphs__** for loss and accuracy is added after training and testing is done
 
 
 ## Model details
